@@ -1,7 +1,7 @@
 # jQuery.html5upload.js
 基于jQuery和HTML5实现的带进度监控的文件上传插件
 
-##OPTIONS
+## OPTIONS
 
 fileTypeExts:允许上传的文件类型 用,隔开 jpg,png
 
@@ -35,9 +35,9 @@ onInit:插件初始化的回调函数
 
 onCancel:取消文件上传的回调函数
 
-##DEMO
+## DEMO
 
-###上传插件初始化
+### 上传插件初始化
 ```js
 $("#button").h5upload(function(){
   url:'/uploadFile',
@@ -58,7 +58,7 @@ $("#button").h5upload(function(){
 	}
 });
 ```
-###取消上传
+### 取消上传
 ```js
 $("#button").h5upload("cancel",file.id);  //单个文件取消上传
 $("#button").h5upload("cancel");  //全部取消上传
