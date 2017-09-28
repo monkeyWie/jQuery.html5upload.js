@@ -155,4 +155,5 @@
 		_this.after(inputForm);
 		// 初始化完成
 		option.onInit();	
+	}
 })(jQuery);
